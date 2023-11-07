@@ -4,9 +4,14 @@ import styles from './page.module.css'
 export default function Home() {
   return (
     <main className={styles.main}>
-      <h1 >
-        QDSB
-      </h1>
+      <Image
+        src="/travel-ai.png"
+        alt="Vercel Logo"
+        className={styles.vercelLogo}
+        width={800}
+        height={1600}
+        priority
+      />
     </main>
   )
 }
