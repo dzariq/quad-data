@@ -3,8 +3,10 @@ import styles from './page.module.css'
 
 export default function Home() {
   return (
-    <main className="">
-      QDSB
+    <main className={styles.main}>
+      <h1 >
+        QDSB
+      </h1>
     </main>
   )
 }
