@@ -1,0 +1,12 @@
+version: '3'
+services:
+  app:
+    container_name: nextjs-app
+    build:
+      context: .  # Use the current directory (where the Dockerfile is located)
+      dockerfile: Dockerfile  # Path to your Dockerfile
+    ports:
+      - '3000:3000'  # Map your local port to the container's port
+    volumes:
+      - .:/app  # Mount your application code into the container
+      - /app/node_modules  # Mount your application code into the container
