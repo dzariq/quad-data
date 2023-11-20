@@ -1,9 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     reactStrictMode: true,
+    output: 'export',
+    distDir: '_static',
     images: {
-      domains: ["cdn.shopify.com"],
-    },
+      unoptimized: true
+    }
   };
 
 module.exports = nextConfig
