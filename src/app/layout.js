@@ -11,6 +11,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+<script src="https://mediafiles.botpress.cloud/18d7fee7-273e-48d4-976a-69f90d7ac9c1/webchat/config.js" defer></script>
       <body className={roboto.className}>{children}</body>
     </html>
   )

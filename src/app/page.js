@@ -7,9 +7,7 @@ import bg from '../../public/travel-ai.png'
 export default function Home() {
   return (
     <main className={styles.main}>
-    <Header name={"QDSB"} age={"39"} >
-      QUAD DATA SDN BHD
-    </Header>
+      <h2>QUAD DATA SDN BHD</h2>
       <Image quality={100}
         src={bg}
       />
