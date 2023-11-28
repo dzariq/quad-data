@@ -8,10 +8,10 @@ export default function Home() {
       <div className="background-image">
         <div className="content">
           <p className='title_1'>
-            AI TECHNOLOGY
+            AS-SIDQ TEST FIELD
             <br />
             <span className='title_2'>
-              TEST FIELD
+              (For internal use only)
             </span>
           </p>
           <img src="/Tech_chipsets.png" alt="QDSB" />
@@ -23,10 +23,12 @@ export default function Home() {
             </span>
           </p>
           <p className='visit'>
-            VISIT US
+            CONTACT US
             <br />
             <span className='aiaa'>
               QUAD DATA
+              <br />
+              0168278257
             </span>
           </p>
         </div>
