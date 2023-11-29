@@ -19,7 +19,7 @@ export default function Home() {
             THE EVOLUTION OF TECH
             <br />
             <span className='desc_2'>
-              A Journey Through the Decades of AI Advancements
+              Years of AI Advancements
             </span>
           </p>
           <p className='visit'>
