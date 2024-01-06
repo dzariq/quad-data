@@ -1,0 +1,101 @@
+.projects {
+  position: relative;
+  letter-spacing: 0.06em;
+  font-weight: 500;
+}
+.previousProjects {
+  position: relative;
+  font-size: var(--font-size-21xl);
+  color: var(--color-darkslategray-200);
+}
+.weveTeamedUp {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  width: 663px;
+}
+.projectsParent,
+.weveTeamedUpWithAwesomeBWrapper {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.weveTeamedUpWithAwesomeBWrapper {
+  align-items: flex-start;
+  text-align: center;
+  color: var(--color-slategray-200);
+}
+.projectsParent {
+  align-items: center;
+  gap: var(--gap-mini);
+}
+.fantasyHome2 {
+  position: relative;
+  border-radius: var(--br-3xs);
+  width: 455px;
+  height: 279px;
+  object-fit: cover;
+}
+.stlPremier2023 {
+  position: relative;
+  letter-spacing: -0.02em;
+}
+.sepakTakrawFantasy {
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+}
+.sepakTakrawFantasyForStadiWrapper {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-darkgray-200);
+}
+.fantasyHome2Parent,
+.stlPremier2023Parent {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-8xs);
+}
+.fantasyHome2Parent {
+  gap: var(--gap-11xl);
+  font-size: var(--font-size-5xl);
+  color: var(--color-darkslategray-200);
+}
+.frameGroup {
+  flex-shrink: 0;
+  flex-direction: row;
+  gap: var(--gap-xl);
+}
+.buttonParent,
+.frameGroup,
+.frameParent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttonParent {
+  flex-shrink: 0;
+  flex-direction: row;
+  gap: var(--gap-6xl);
+  color: var(--color-silver);
+}
+.frameParent {
+  background-color: var(--color-whitesmoke);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-81xl) var(--padding-78xl-5);
+  gap: var(--gap-81xl);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-crimson);
+  font-family: var(--font-inter);
+}

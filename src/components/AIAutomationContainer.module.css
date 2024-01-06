@@ -1,0 +1,72 @@
+.aiAutomation {
+  position: relative;
+  font-weight: 600;
+}
+.frameChild {
+  position: relative;
+  max-height: 100%;
+  width: 81px;
+  object-fit: cover;
+}
+.ourAiExpertise {
+  margin: 0;
+}
+.ourAiExpertiseContainer {
+  position: relative;
+  font-size: var(--font-size-mini);
+  line-height: 24px;
+  color: var(--color-slategray-100);
+  text-align: center;
+}
+.aiAutomationParent,
+.frameGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.aiAutomationParent {
+  flex-shrink: 0;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.frameGroup {
+  position: absolute;
+  top: 48.3px;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.08);
+  justify-content: center;
+  padding: var(--padding-41xl) var(--padding-xl) var(--padding-21xl);
+  gap: var(--gap-6xl);
+}
+.frameIcon {
+  position: relative;
+  width: 40.9px;
+  height: 46px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.frameWrapper {
+  position: absolute;
+  top: -1px;
+  left: calc(50% - 47.5px);
+  border-radius: var(--br-30xl);
+  background-color: var(--color-white);
+  border: 2px solid var(--color-gray-400);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xl) var(--padding-4xl);
+}
+.frameParent {
+  position: relative;
+  width: 294px;
+  height: 400.3px;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-dimgray-200);
+  font-family: var(--font-inter);
+}

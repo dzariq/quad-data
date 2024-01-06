@@ -1,0 +1,42 @@
+.frameGroup {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.frameChild {
+  border-radius: 15px;
+  width: 1095px;
+  height: 567px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.frameWrapper {
+  background-color: var(--color-whitesmoke);
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-81xl) 172px;
+}
+.frameParent,
+.landingPage {
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+}
+.frameParent {
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+}
+.landingPage {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  align-items: flex-start;
+  justify-content: flex-start;
+}

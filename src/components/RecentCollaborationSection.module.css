@@ -1,0 +1,102 @@
+.frameChild {
+  position: relative;
+  border-top: 1.5px solid var(--color-lightslategray-200);
+  box-sizing: border-box;
+  width: 461.5px;
+  height: 1.5px;
+}
+.recentCollaboration {
+  position: relative;
+  font-weight: 600;
+}
+.recentCollaborationWrapper {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.frameItem {
+  position: relative;
+  border-top: 1.5px solid var(--color-lightslategray-200);
+  box-sizing: border-box;
+  width: 460.5px;
+  height: 1.5px;
+}
+.lineParent {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.kdafc2Icon,
+.stadiumastroV11 {
+  position: relative;
+  width: 204px;
+  height: 54px;
+  object-fit: cover;
+}
+.kdafc2Icon {
+  width: 70px;
+  height: 70px;
+}
+.kdaFc {
+  position: relative;
+  letter-spacing: -0.06em;
+}
+.kdafc2Parent {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.footballAssociation {
+  margin: 0;
+}
+.footballAssociationOfContainer {
+  position: relative;
+  letter-spacing: -0.01em;
+  font-weight: 600;
+}
+.logoFas2Parent {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  font-size: var(--font-size-xs);
+  color: var(--color-dimgray-100);
+  font-family: var(--font-inter);
+}
+.image15Icon {
+  position: relative;
+  width: 170px;
+  height: 54px;
+  object-fit: cover;
+}
+.frameParent,
+.stadiumastroV11Parent {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-89xl);
+  font-size: var(--font-size-17xl);
+  color: var(--color-seagreen);
+  font-family: var(--font-friz-quadrata);
+}
+.frameParent {
+  flex-direction: column;
+  padding: var(--padding-xl) var(--padding-131xl) var(--padding-81xl);
+  gap: var(--gap-61xl);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-darkslategray-200);
+  font-family: var(--font-inter);
+}
